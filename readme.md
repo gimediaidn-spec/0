@@ -133,9 +133,8 @@ cat s.log | ccze -A && tail -f s.log | ccze -A
 
 ## 🟣 Shortcuts / Aliases
 
-### Biar lebih cepat dan nggak perlu path penuh:
-
 <details>
+<summary>📝 List</summary>
 
 ```bash
 # Redis CLI shortcut
