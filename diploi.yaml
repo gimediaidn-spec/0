@@ -10,6 +10,9 @@ components:
   - name: "WORKER-1"
     identifier: "w"
     package: "https://github.com/diploi/component-nodejs#main"
+  - name: "WORKER-2"
+    identifier: "ww"
+    package: "https://github.com/diploi/component-nodejs#main"
 addons:
   - name: "PostgreSQL"
     identifier: "postgres"

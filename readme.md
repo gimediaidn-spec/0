@@ -149,8 +149,9 @@ alias log='tail -f s.log | ccze -A'
 alias logfull='cat s.log | ccze -A && tail -f s.log | ccze -A'
 ```
 
-> 💡 
-> 💡 `export PATH="/app/local/bin:$PATH"` | Tambahkan di `~/.bashrc` atau `~/.zshrc` supaya persistent.
+ 
+> 💡 `export PATH="/app/local/bin:$PATH"` 
+> 💡Tambahkan di `~/.bashrc` atau `~/.zshrc` supaya persistent.
 
 ---
 
