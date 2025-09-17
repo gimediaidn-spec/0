@@ -1,7 +1,7 @@
 
 ---
 
-# 🌟 Tools | export PATH="/app/local/bin:$PATH"
+# 🌟 Tools 
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue) ![Redis](https://img.shields.io/badge/Redis-CLI-red) ![Postgres](https://img.shields.io/badge/Postgres-pgcli-blue) ![Status](https://img.shields.io/badge/Status-Interactive-brightgreen)
 
@@ -149,6 +149,7 @@ alias log='tail -f s.log | ccze -A'
 alias logfull='cat s.log | ccze -A && tail -f s.log | ccze -A'
 ```
 
+> 💡 export PATH="/app/local/bin:$PATH"
 > 💡 Tambahkan di `~/.bashrc` atau `~/.zshrc` supaya persistent.
 
 ---
@@ -160,8 +161,11 @@ alias logfull='cat s.log | ccze -A && tail -f s.log | ccze -A'
 > 🔹 Shared path for multi-process → avoid duplicate node warnings
 
 > 🔹 pgcli is faster & interactive than `psql`
+
 > 🔹 Use ccze for long logs → color makes debugging fun
+
 > 🔹 Always run from `/app` for relative paths to work
+
 > 🔹 Emoji guide: ⚡ = install, 📝 = test, ✅ = check
 
 ---
