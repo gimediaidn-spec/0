@@ -134,7 +134,9 @@ cat s.log | ccze -A && tail -f s.log | ccze -A
 ## 🟣 Shortcuts / Aliases
 
 ### Biar lebih cepat dan nggak perlu path penuh:
+
 <details>
+
 ```bash
 # Redis CLI shortcut
 alias redis-cli='/app/local/bin/redis-cli'
@@ -149,6 +151,7 @@ alias log='tail -f s.log | ccze -A'
 alias logfull='cat s.log | ccze -A && tail -f s.log | ccze -A'
 ```
 </details>
+
  
 > 💡 `export PATH="/app/local/bin:$PATH"` 
 
