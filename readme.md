@@ -156,7 +156,9 @@ alias logfull='cat s.log | ccze -A && tail -f s.log | ccze -A'
 ## 💡 Tips & Tricks
 
 > 🔹 Keep binaries local → `local/bin` for redis-cli
+
 > 🔹 Shared path for multi-process → avoid duplicate node warnings
+
 > 🔹 pgcli is faster & interactive than `psql`
 > 🔹 Use ccze for long logs → color makes debugging fun
 > 🔹 Always run from `/app` for relative paths to work
