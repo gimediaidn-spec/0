@@ -50,7 +50,7 @@ cp src/redis-cli ../local/bin/
 <summary>📝 Step 3: Test Binary</summary>
 
 ```bash
-/app/local/bin/redis-cli --version #===============================================================================================================================
+/app/local/bin/redis-cli --version 
 file /app/local/bin/redis-cli
 ```
 
