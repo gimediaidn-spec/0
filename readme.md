@@ -50,7 +50,7 @@ cp src/redis-cli ../local/bin/
 <summary>📝 Step 3: Test Binary</summary>
 
 ```bash
-/app/local/bin/redis-cli --version
+/app/local/bin/redis-cli --version #===============================================================================================================================
 file /app/local/bin/redis-cli
 ```
 
@@ -63,9 +63,9 @@ file /app/local/bin/redis-cli
 <summary>📝 Step 4: Test Connection</summary>
 
 ```bash
-/app/local/bin/redis-cli -h redis.redis -p 6379 ping
-/app/local/bin/redis-cli -h redis.redis -p 6379 info memory
-/app/local/bin/redis-cli -h redis.redis -p 6379 info stats
+redis-cli -h redis.redis -p 6379 ping
+redis-cli -h redis.redis -p 6379 info memory
+redis-cli -h redis.redis -p 6379 info stats
 ```
 
 > 🟢 Should return `PONG` & memory/stats info
